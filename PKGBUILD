@@ -1,7 +1,7 @@
 # Maintainer: everyx <lunt.luo#gmail.com>
 
 pkgname=sing-geoip
-pkgver=20221112
+pkgver=20221212
 pkgrel=1
 
 pkgdesc='sing-geoip database'
@@ -15,8 +15,8 @@ optdepends=('sing-box: The universal proxy platform')
 source=("${pkgver}.geoip-cn.db::${url}/releases/download/${pkgver}/geoip-cn.db"
         "${pkgver}.geoip.db::${url}/releases/download/${pkgver}/geoip.db"
         "${pkgver}.LICENSE::https://raw.githubusercontent.com/${_repo}/${pkgver}/LICENSE")
-sha256sums=('91fd07cd964e938f1f2ae5b7e0d9f4a22784295adba7374c35cbc00a9b303b0c'
-            '1429f6f81323537cef22aac3fa38352503ac7e0f0d7bc7d4a9095e729222395a'
+sha256sums=('3ff21424fd59ea4bd0f8f3b6e438586609402432da39df057e965bf7d78e6115'
+            'ad75ae0ecb27c9325583f6d9365abc172139c30382adeddb94f39645e6853732'
             '2f02b7486bcfa90d115c71a20437f3906b6fd5bef81c5dc0efd341399e89d0fd')
 
 package() {
